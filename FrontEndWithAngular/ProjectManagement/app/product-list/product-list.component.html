@@ -1,0 +1,10 @@
+<h1>Product List</h1>
+{{product | json}}
+<div>
+  <ul>
+    <li *ngFor='let pro of products'> <span class='badge'>{{pro.id}}</span> {{pro.name}} ${{pro.price}} 
+        <button (click)='onClickEdit(pro)'>Edit</button>
+        <button (click)='onClickDelete(pro)'>Delete</button>
+    </li>
+  </ul>
+</div>
