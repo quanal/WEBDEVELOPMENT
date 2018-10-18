@@ -1,0 +1,8 @@
+
+.form{
+    padding: 30px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+}

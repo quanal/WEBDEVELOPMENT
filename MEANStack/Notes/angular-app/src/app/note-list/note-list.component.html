@@ -1,0 +1,9 @@
+<div class='listNote'>
+  <div class='customScroll'>
+      <div class="note" *ngFor="let note of notes">
+          <div class="noteDate">Noted on: {{note.dateTime}} </div>
+          <!-- <div class='clear'></div> -->
+          <div class="noteContent">{{note.content}} </div>
+        </div>
+  </div>
+</div>
