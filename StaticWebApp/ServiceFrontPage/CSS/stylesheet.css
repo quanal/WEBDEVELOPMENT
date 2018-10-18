@@ -1,0 +1,169 @@
+/*Global Setup*/
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	width: 1024px;
+	padding: 10px;
+	background-color: white;
+	margin:0 auto;
+}
+
+.container{
+	width: 95%;
+	background-color: #0A192F;
+	margin:auto;
+	overflow:hidden;
+}
+.logo{
+	width: 27px;
+	height: 27px;
+}
+
+/*Header set up*/
+header{
+	padding: 10px;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+header h1{
+	color:white;
+	margin-left:10px;
+	margin-top:10px;
+	float:left;
+}
+header h1 span{
+	color:#2A66C5;
+}
+header nav{
+	float: right;
+	margin-top: 20px;
+}
+header li{
+	display: inline;
+	margin-right: 30px;
+	font-size: 18px;
+}
+header li span{
+	color:#2A66C5;]
+}
+.clear{
+	clear:both;
+}
+
+/*Container Set up*/
+#mainContainer{
+	height: 950px;
+	width: calc(100% - 80px);
+	margin:20px;
+	background-color: #ffffff;
+	padding: 20px;
+}
+#mainServicesImg{
+	width: 100%;
+	height: 100%;
+}
+.SPC{
+	margin-top: 30px;
+}
+.information{
+	width: calc(33% - 30px);
+	height: 200px;
+	background-color: #316FB2;
+	display: inline-block;
+	padding: 10px;
+	vertical-align: top;
+}
+.mid{
+	margin: 0 15px 0 15px;
+}
+.description{
+	color:white;
+	font-size: 13px;
+	margin-top: 15px;
+}
+.btn{
+	margin-top: 40px;
+	padding: 10px 30px 10px 30px;
+	background-color: #78B1F9;
+	color:white;
+	border-radius: 5px;
+	border:none;
+}
+section img,
+section h2{
+	display: inline-block;
+	vertical-align: top;
+}
+section h2{
+	color: #ffffff;
+}
+
+#slogan{
+	margin-top: 20px;
+}
+#slogan h2{
+	color:black;
+}
+#slogan .left{
+	float: left;
+}
+#slogan .right{
+	float:right;
+	margin-right: 110px;
+}
+
+#goal{
+	margin-top: 30px;
+}
+#goal .information{
+	font-size: 12px;
+	padding: 0;
+	background-color: white;
+}
+#goal .mid{
+	margin:0 40px 0 40px;
+}
+#goal .information a{
+	font-size: 20px;
+	text-decoration: none;
+	color:#2A66C5;
+}
+#goal .last{
+
+	/*width: calc(33% - 50px);*/
+	
+}
+#quote{
+	font-size: 22px;
+	text-align: center;
+	border: 1px solid black;
+	padding: 20px;
+	height: 110px;
+}
+#manager{
+	margin-top:10px;
+	font-size: 15px;
+}
+
+footer{
+	margin: 0;
+	border-top: 1px solid black;
+}
+footer nav{
+	margin-top: 20px;
+	text-align: center;
+}
+footer li a{
+	color:#2A66C5;
+	/*display: inline;*/
+}
+footer li{
+	text-decoration: none;
+	display: inline;
+	margin: 20px;
+}
